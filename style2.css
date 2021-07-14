@@ -1,0 +1,52 @@
+*,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-post{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/postbg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-postpanel{
+	width: 450px;
+	height: 500px;
+	position: relative;;
+	margin: 4% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;	
+}
+#post{
+	left: 50px;
+}
+.input-group{
+	top: 50px;
+	position: absolute;
+	width: 350px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 5px 0 5px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 90%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 10px;
+	background: linear-gradient(to right,#F7971E,#FFD200);
+	outline: none;
+	border-radius: 30px;
+}

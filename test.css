@@ -1,0 +1,64 @@
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #24252a;
+  margin-bottom: 10px;
+}
+.nav h1{
+    display: initial;
+    padding: 3px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #39ca74;
+}
+.nav span{
+    color: #ffffff;
+}
+.nav .logo {
+  margin-right: auto;
+  position: relative;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #8B78E6;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(139, 120, 230, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(139, 120, 230, 0.8);
+}
